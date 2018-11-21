@@ -1,0 +1,5 @@
+<view class="skeleton-present" style="width: {{window.width}}px; height: {{window.height}}px;  ">
+  <view class="skeleton-present-bg" wx:for="{{rectBackgrounds}}" wx:key="{{index}}" style="width: {{item.width}}px; height: {{item.height}}px; left: {{item.left}}px; top: {{item.top}}px"></view>
+  <view class="skeleton-present-rect" wx:for="{{rects}}" wx:key="{{index}}" style="width: {{item.width}}px; height: {{item.height}}px; left: {{item.left}}px; top: {{item.top}}px"></view>
+  <view class="skeleton-present-radius" wx:for="{{radius}}" wx:key="{{index}}" style="width: {{item.width}}px; height: {{item.height}}px;  left: {{item.left}}px; top: {{item.top}}px"></view>
+</view>

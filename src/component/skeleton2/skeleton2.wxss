@@ -1,0 +1,23 @@
+.skeleton-present {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9998;
+  overflow: hidden;
+}
+
+.skeleton-present-bg {
+  position: absolute;
+  background-color: #564;
+}
+
+.skeleton-present-rect {
+  position: absolute;
+  background-color: rgb(194, 207, 214);
+}
+
+.skeleton-present-radius {
+  position: absolute;
+  background-color: rgb(194, 207, 214);
+  border-radius: 50%;
+}
